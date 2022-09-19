@@ -1,18 +1,13 @@
 /**
-*wap_int - swaps the values of two integers
-*		with two input parameters
-*
-* @a: input parameter 1
-* @b: input parameter 2
-*
-* Return: Nothing
+ * reset_to_98 - takes a pointer to an int parameter then
+ *updates pointing value to 98
+ *
+ * @n: int parameter
+ *
+ * Return: Nothing
  */
 
-	void swap_int(int *a, int *b)
+void reset_to_98(int *n)
 {
-	int temp;
-
-	temp = *a;
-	*a = *b;
-	*b = temp;
+	*n = 98;
 }
